@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    background-image: url("../img/background.png");
+}
+
+#conteneurMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom : 50px;
+}
+
+.logoAccueil {
+    align-self: center;
+}
+
+#navbar {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: groove;
+    border-color : white;
+    border-radius : 30%;
+    background-color: darkgray;
+    flex-wrap: wrap;
+}
+
+#navListe{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style : none;
+    padding-left: 0;
+}
+
+#navListe li {
+    margin: auto;
+}
+
+#navListe li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px 0 5px;
+    font-size: 25px;
+}
+
+#conteneurHeader {
+    background-color : black;
+    height : 40px;
+}
+
+#divConnexion{
+    margin-top: 0;
+    display: flex;
+    flex-direction : row;
+    justify-content: space-between;
+    list-style : none;
+    padding: 10px;
+}
+
+#divConnexion li {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+#divConnexion li a {
+    text-decoration: none;
+    color: white;
+}
+
+div#Accueil {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom : 100px;
+    border : double;
+    border-radius: 10%;
+    background-color: azure;
+    opacity: 0.6;
+    padding : 15px 15px 15px 15px;
+}
+
+.divArticle {
+    min-width: 150px;
+    max-width: 200px;
+    border : outset;
+    border-radius: 10%;
+    background-color: darkgray;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+    padding : 10px 10px 10px 10px;
+}
+
+
+
+
