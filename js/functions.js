@@ -1,4 +1,4 @@
-/*
+﻿/*
 	N'écrivez PAS vos fonctions JS ici.
 	À la place, créez un autre fichier de cette façon :
 
