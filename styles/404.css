@@ -1,0 +1,23 @@
+body{
+	    background-image: url("../res/404.png");
+	    background-size: cover;
+
+}
+
+.material-icons {
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 6em;
+  z-index: 100;
+  margin-left: 45%;
+  margin-top: 38%;
+  width: 3%;
+  }
